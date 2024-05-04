@@ -15,3 +15,13 @@ import json
 def index(request):
     return render(request, 'index.html') 
 
+#Page: Login Page
+def createAccountpage(request):
+    return render(request,'pages-register_2.html')
+
+#Process: Create New Account
+def CreateAccountProcess(request):
+    test = request.POST
+    print("This is the test part you Should Read!")
+    print(test)
+    return render(request, 'pages-register_2.html')
