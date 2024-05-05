@@ -13,5 +13,8 @@ import json
 
 
 def index(request):
-    return render(request, 'index.html') 
+    return render(request, 'index.html')
 
+#Page: Dashboard Page / Add by Kareem
+def Dashboard(request):
+    return render(request, 'Dashboard.html')
