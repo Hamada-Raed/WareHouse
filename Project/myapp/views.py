@@ -17,4 +17,6 @@ def index(request):
 
 #Page: Dashboard Page / Add by Kareem
 def Dashboard(request):
-    return render(request, 'Dashboard.html')
+    return render(request, 'Dashboard.html') 
+
+# this 
