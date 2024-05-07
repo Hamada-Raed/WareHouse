@@ -19,5 +19,5 @@ def index(request):
 def Dashboard(request):
     return render(request, 'Dashboard.html') 
 
-# How are you kareem ? 
+# HI Hamada
 
