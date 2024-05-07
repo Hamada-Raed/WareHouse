@@ -13,15 +13,21 @@ import json
 
 
 def index(request):
-    return render(request, 'index.html') 
+    return render(request, 'pageLogin.html') 
 
 #Page: Login Page
-def createAccountpage(request):
-    return render(request,'pages-register_2.html')
+def pageLogin(request):
+    return render(request, 'pageLogin.html')
 
-#Process: Create New Account
-def CreateAccountProcess(request):
-    test = request.POST
-    print("This is the test part you Should Read!")
-    print(test)
-    return render(request, 'pages-register_2.html')
+#Page: Register page
+def pageRegister(request):
+    return render(request,'pageRegister.html')
+
+#Page: Dashboard Page
+def pageDashboard(request):
+    return render(request, 'pageDashboard.html')
+
+#Page: Enter Products Page
+def pageEnterProducts(request):
+    return render(request, 'pageEnterProducts.html')
+

@@ -5,6 +5,8 @@ app_name = 'myapp'
 
 urlpatterns = [
     path('', views.index),
-    path('creatAccountpage', views.createAccountpage),
-    path('CreateAccountProcess', views.CreateAccountProcess , name='CreateAccountProcess'),
+    path('pageLogin', views.pageLogin), # Page: Login / Kareem
+    path('pageRegister', views.pageRegister), # Page: Login / Kareem
+    path('pageDashboard', views.pageDashboard), # Page: Dashboard / Kareem
+    path('pageEnterProducts', views.pageEnterProducts) # Page: Enter Products / Kareem
 ]
