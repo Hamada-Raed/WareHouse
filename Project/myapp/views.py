@@ -13,11 +13,20 @@ import json
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'pageLogin.html') 
 
-#Page: Dashboard Page / Add by Kareem
-def Dashboard(request):
-    return render(request, 'Dashboard.html') 
+#Page: Login Page
+def pageLogin(request):
+    return render(request, 'pageLogin.html')
 
-#ABCD
-# 1234
+#Page: Register page
+def pageRegister(request):
+    return render(request,'pageRegister.html')
+
+#Page: Dashboard Page
+def pageDashboard(request):
+    return render(request, 'pageDashboard.html')
+
+#Page: Enter Products Page
+def pageEnterProducts(request):
+    return render(request, 'pageEnterProducts.html')
